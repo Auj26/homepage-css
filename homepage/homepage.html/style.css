@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 40;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f7f4ed;
+    font-family: 'Inter', sans-serif;
+    color: #000;
+}
+
+/* Navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 60px;
+    border-bottom: 1px solid #000;
+}
+
+.logo {
+    font-family: 'Playfair Display', serif;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #000;
+    font-size: 15px;
+    transition: opacity 0.3s ease;
+}
+
+nav a:hover {
+    opacity: 0.6;
+}
+
+.btn-primary {
+    padding: 10px 18px;
+    border-radius: 25px;
+    border: none;
+    background: #000;
+    color: #fff;
+    font-size: 14px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.btn-primary:hover {
+    background: #333;
+    transform: translateY(-2px);
+}
+
+/* Hero Section */
+.hero {
+    display: flex;
+    align-items: auto;
+    justify-content: space-between;
+    padding: 80px 60px;
+}
+
+.hero-text {
+    max-width: 600px;
+}
+
+.hero-text h1 {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 100px;
+    font-weight: 300;
+    line-height: 1;
+    margin-bottom: 0px
+}
+
+.hero-text p {
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+
+.btn-secondary {
+    padding: 14px 28px;
+    border-radius: 30px;
+    border: none;
+    background: #000;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.btn-secondary:hover {
+    background: #333;
+    transform: scale(1.05);
+}
+
+/* Image */
+.hero-image img {
+    max-width: 480px;
+    max-height: 480px;
+}
+
+/* Footer */
+.footer {
+    padding: 20px 60px;
+    border-top: 1px solid #000;
+    display: flex;
+    align-items: center;
+    gap: 18px;
+    flex-wrap: wrap;
+}
+
+.footer a {
+    text-decoration: none;
+    color: #555;
+    font-size: 13px;
+    transition: color 0.3s ease;
+}
+
+.footer a:hover {
+    color: #000;
+}
